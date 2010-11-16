@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout_ViewPhotos" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageView android:id="@+id/ViewPhotos_Image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true"></ImageView>
+	<ImageView android:id="@+id/ImageView_TabFoot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"></ImageView>	
+	<LinearLayout android:id="@+id/LinearLayout_ViewsPhotos" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:orientation="horizontal" android:gravity="center" android:layout_marginBottom="4dp">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Back" android:id="@+id/ViewPhotos_select"></Button>
+	</LinearLayout>
+</RelativeLayout>
